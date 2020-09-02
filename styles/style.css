@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .header {
@@ -19,16 +19,13 @@
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  display: flex;
-  align-items:center;
-  justify-content: flex-start;
 }
 
 .logo {
   margin: 0;
   padding: 0;
   width: 183px;
-  
+
 }
 
 .logo_place_header {
@@ -41,8 +38,8 @@
 
 .header__title {
   margin: 0;
-  padding: 0;  
-  margin-left:64px;
+  padding: 0;
+  margin-left: 64px;
   max-width: 730px;
   z-index: 3;
   line-height: 96px;
@@ -91,7 +88,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  
+
 }
 
 .description {
@@ -130,7 +127,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph:not(:last-of-type) {
+.two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -206,7 +203,7 @@
   background-position: bottom left;
   position: relative;
   background-color: #f2f2f2;
-  
+
   padding-top: 100px;
 }
 
@@ -244,27 +241,26 @@
 .kaufman {
   position: relative;
   overflow: hidden;
-  background-color: #1f1f1f;  
+  background-color: #1f1f1f;
   margin: 0 auto;
-  
 }
 
 .kaufman__triangle {
-  background-image:url('../images/kaufman-triangle.svg');
-  top:0;
+  background-image: url('../images/kaufman-triangle.svg');
+  top: 0;
   right: -210px;
   position: absolute;
   z-index: 0;
   width: 877px;
   height: 877px;
-  background-size:contain
-  
-  
+  background-size: contain;
+
+
 }
 
 .table_theme_dark {
   margin-bottom: 90px;
-  
+
 }
 
 .section-title_theme_dark {
@@ -371,7 +367,7 @@
   font-weight: normal;
 }
 
-.footer__column_list:last-of-type {
+.footer__column-list:last-child {
   margin-bottom: 16px;
 }
 
@@ -380,6 +376,7 @@
   height: 16px;
   margin-right: 10px;
 }
-.logo_place_footer{
-  height:35px;
+
+.logo_place_footer {
+  height: 35px;
 }
