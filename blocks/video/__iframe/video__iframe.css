@@ -1,8 +1,8 @@
 .video__iframe{
     min-width: 515px;
     min-height: 316px;
+    border: none;
 }
 .video__iframe:first-of-type{
-    margin-right: 20px;
-   
+    margin-right: 20px;   
     }
